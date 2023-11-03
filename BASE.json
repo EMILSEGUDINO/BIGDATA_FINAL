@@ -1,0 +1,82 @@
+
+
+import json 
+
+data = '''[
+    {
+        "nombre": "Juan",
+        "edad": "33",
+        "ciudad": "La Pampa",
+        "fecha_nacimiento": "16-02-1990"
+    },
+    {
+        "nombre": "Maria",
+        "edad": "21",
+        "ciudad": "Cordoba",
+        "fecha_nacimiento": "15-02-2002"
+    },
+    {
+        "nombre": "Carlos",
+        "edad": "18",
+        "ciudad": "Buenos Aires",
+        "fecha_nacimiento": "13-09-2004"
+    },
+    {
+        "nombre": "Ana",
+        "edad": "28",
+        "ciudad": "Rio Negro",
+        "fecha_nacimiento": "25-07-1995"
+    },
+    {
+        "nombre": "Pedro",
+        "edad": "42",
+        "ciudad": "Jujuy",
+        "fecha_nacimiento": "26-07-1981"
+    
+    },
+    {
+        "nombre": "Laura",
+        "edad": "23",
+        "ciudad": "Salta",
+        "fecha_nacimiento": "08-01-2000"
+    },
+    {
+        "nombre": "Luis",
+        "edad": "33",
+        "ciudad": "Tucuman",
+        "fecha_nacimiento": "25-10-1990"
+    },
+    {
+        "nombre": "Elena",
+        "edad": 29,
+        "ciudad": "Santiago del Estero",
+        "fecha_nacimiento": "25-07-1995"
+    },
+    {
+        "nombre": "Sara",
+        "edad": 31,
+        "ciudad": "Rio Negro",
+        "fecha_nacimiento": "sin dato"
+    },
+    {
+        "nombre": "Javier",
+        "edad": 27,
+        "ciudad": "Mendoza",
+        "fecha_nacimiento": "01/06-1996"
+    }
+]'''
+
+data_list = json.loads(data)
+
+for item in data_list:
+    print(item)
+
+
+
+
+
+
+
+
+
+
